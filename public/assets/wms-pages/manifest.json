@@ -1,0 +1,73 @@
+{
+  "source": "/assets/wms-dashboard.pdf",
+  "pages": [
+    {
+      "src": "/assets/wms-pages/page-01.webp",
+      "bytes": 49986
+    },
+    {
+      "src": "/assets/wms-pages/page-02.webp",
+      "bytes": 54606
+    },
+    {
+      "src": "/assets/wms-pages/page-03.webp",
+      "bytes": 35002
+    },
+    {
+      "src": "/assets/wms-pages/page-04.webp",
+      "bytes": 62350
+    },
+    {
+      "src": "/assets/wms-pages/page-05.webp",
+      "bytes": 42962
+    },
+    {
+      "src": "/assets/wms-pages/page-06.webp",
+      "bytes": 80612
+    },
+    {
+      "src": "/assets/wms-pages/page-07.webp",
+      "bytes": 54118
+    },
+    {
+      "src": "/assets/wms-pages/page-08.webp",
+      "bytes": 62858
+    },
+    {
+      "src": "/assets/wms-pages/page-09.webp",
+      "bytes": 48240
+    },
+    {
+      "src": "/assets/wms-pages/page-10.webp",
+      "bytes": 56966
+    },
+    {
+      "src": "/assets/wms-pages/page-11.webp",
+      "bytes": 48028
+    },
+    {
+      "src": "/assets/wms-pages/page-12.webp",
+      "bytes": 96148
+    },
+    {
+      "src": "/assets/wms-pages/page-13.webp",
+      "bytes": 69946
+    },
+    {
+      "src": "/assets/wms-pages/page-14.webp",
+      "bytes": 97108
+    },
+    {
+      "src": "/assets/wms-pages/page-15.webp",
+      "bytes": 54640
+    },
+    {
+      "src": "/assets/wms-pages/page-16.webp",
+      "bytes": 80850
+    },
+    {
+      "src": "/assets/wms-pages/page-17.webp",
+      "bytes": 82930
+    }
+  ]
+}

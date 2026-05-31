@@ -1,0 +1,61 @@
+{
+  "source": "/assets/teacher-contact.pdf",
+  "pages": [
+    {
+      "src": "/assets/teacher-contact-pages/page-01.webp",
+      "bytes": 62468
+    },
+    {
+      "src": "/assets/teacher-contact-pages/page-02.webp",
+      "bytes": 44990
+    },
+    {
+      "src": "/assets/teacher-contact-pages/page-03.webp",
+      "bytes": 47356
+    },
+    {
+      "src": "/assets/teacher-contact-pages/page-04.webp",
+      "bytes": 50062
+    },
+    {
+      "src": "/assets/teacher-contact-pages/page-05.webp",
+      "bytes": 47464
+    },
+    {
+      "src": "/assets/teacher-contact-pages/page-06.webp",
+      "bytes": 112022
+    },
+    {
+      "src": "/assets/teacher-contact-pages/page-07.webp",
+      "bytes": 88614
+    },
+    {
+      "src": "/assets/teacher-contact-pages/page-08.webp",
+      "bytes": 52516
+    },
+    {
+      "src": "/assets/teacher-contact-pages/page-09.webp",
+      "bytes": 97870
+    },
+    {
+      "src": "/assets/teacher-contact-pages/page-10.webp",
+      "bytes": 37274
+    },
+    {
+      "src": "/assets/teacher-contact-pages/page-11.webp",
+      "bytes": 95482
+    },
+    {
+      "src": "/assets/teacher-contact-pages/page-12.webp",
+      "bytes": 47562
+    },
+    {
+      "src": "/assets/teacher-contact-pages/page-13.webp",
+      "bytes": 67586
+    },
+    {
+      "src": "/assets/teacher-contact-pages/page-14.webp",
+      "bytes": 62452
+    }
+  ]
+}

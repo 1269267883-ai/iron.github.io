@@ -1,0 +1,44 @@
+{
+  "pages": [
+    {
+      "src": "/assets/ai-comic-pages/page-01.webp",
+      "bytes": 96230
+    },
+    {
+      "src": "/assets/ai-comic-pages/page-02.webp",
+      "bytes": 98372
+    },
+    {
+      "src": "/assets/ai-comic-pages/page-03.webp",
+      "bytes": 65322
+    },
+    {
+      "src": "/assets/ai-comic-pages/page-04.webp",
+      "bytes": 253966
+    },
+    {
+      "src": "/assets/ai-comic-pages/page-05.webp",
+      "bytes": 282098
+    },
+    {
+      "src": "/assets/ai-comic-pages/page-06.webp",
+      "bytes": 133482
+    },
+    {
+      "src": "/assets/ai-comic-pages/page-07.webp",
+      "bytes": 177452
+    },
+    {
+      "src": "/assets/ai-comic-pages/page-08.webp",
+      "bytes": 396048
+    },
+    {
+      "src": "/assets/ai-comic-pages/page-09.webp",
+      "bytes": 420836
+    },
+    {
+      "src": "/assets/ai-comic-pages/page-10.webp",
+      "bytes": 48964
+    }
+  ]
+}
