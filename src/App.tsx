@@ -427,7 +427,7 @@ function PortfolioModal({
           onClick={onClose}
         >
           <motion.div
-            className="liquid-glass flex h-[92vh] w-full max-w-[92rem] flex-col rounded-2xl text-left"
+            className="liquid-glass flex h-[96vh] w-full max-w-[98rem] flex-col rounded-2xl text-left"
             initial={{ opacity: 0, y: 24, scale: 0.96 }}
             animate={{ opacity: 1, y: 0, scale: 1 }}
             exit={{ opacity: 0, y: 18, scale: 0.97 }}
@@ -437,7 +437,7 @@ function PortfolioModal({
             aria-modal="true"
             aria-label={`${project.title} 作品PDF展示`}
           >
-            <div className="flex h-10 items-center justify-between gap-4 border-b border-border/40 px-4 md:px-5">
+            <div className="flex items-center justify-between gap-4 px-4 py-1.5 md:px-5">
               <h3 className="truncate text-base font-semibold tracking-[-0.2px] md:text-lg">{project.title}</h3>
               <button
                 className="flex h-7 w-7 shrink-0 items-center justify-center rounded-full border border-border/70 text-muted-foreground transition hover:border-foreground/60 hover:bg-foreground hover:text-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring"
@@ -449,7 +449,7 @@ function PortfolioModal({
               </button>
             </div>
 
-            <div className="min-h-0 flex-1 p-1.5 md:p-2">
+            <div className="min-h-0 flex-1 p-1 md:p-1.5">
               {project.pageImages ? (
                 <ProjectPageViewer images={project.pageImages} title={project.title} key={project.title} />
               ) : (
@@ -479,8 +479,8 @@ function ProjectPageViewer({ images, title }: { images: string[]; title: string 
 
   return (
     <div className="relative h-full w-full overflow-hidden rounded-xl border border-border/60 bg-background">
-      <div className="h-full w-full overflow-y-auto px-3 py-4 md:px-4">
-        <div className="mx-auto flex max-w-[1350px] flex-col gap-4 pb-4">
+      <div className="no-scrollbar h-full w-full overflow-y-auto px-2 py-2 md:px-3 md:py-3">
+        <div className="mx-auto flex max-w-[1480px] flex-col gap-4 pb-3">
           {images.slice(0, visibleCount).map((src, index) => (
             <img
               className="w-full rounded-[40px] bg-white shadow-[0_0_0_1px_rgba(255,255,255,0.18)]"
@@ -567,7 +567,7 @@ function MissionSection() {
   return (
     <section id="philosophy" ref={ref} className="px-6 pb-32 pt-0 md:pb-44">
       <motion.video
-        className="mx-auto aspect-square w-full max-w-[800px] object-cover"
+        className="mx-auto aspect-square w-full max-w-[400px] object-cover"
         src={missionVideo}
         autoPlay
         muted
@@ -611,29 +611,13 @@ function SolutionSection() {
   )
 }
 
-function Footer() {
-  return (
-    <footer id="contact" className="flex flex-col gap-6 px-8 py-12 md:flex-row md:items-center md:justify-between md:px-28">
-      <p className="text-sm text-muted-foreground">© 2026 Mindloop. All rights reserved.</p>
-      <div className="flex gap-6 text-sm">
-        {["Privacy", "Terms", "Contact"].map((link) => (
-          <a className="text-muted-foreground transition hover:text-foreground" href="#home" key={link}>
-            {link}
-          </a>
-        ))}
-      </div>
-    </footer>
-  )
-}
-
 function App() {
   return (
     <main className="min-h-screen bg-background text-foreground">
       <HeroSection />
-      <SearchSection />
       <MissionSection />
+      <SearchSection />
       <SolutionSection />
-      <Footer />
     </main>
   )
 }
